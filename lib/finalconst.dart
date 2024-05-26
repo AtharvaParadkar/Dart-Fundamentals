@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 void main() {
   //* final - runtime, can reside inside a class
   final String name = "Atharva";
