@@ -1,3 +1,6 @@
 # https://dart.dev/guides/libraries/private-files
 # Created by `dart pub`
 .dart_tool/
+lib/hierarchical_inheritence.dart
+lib/multilevel_inheritence.dart
+lib/single_inheritence.dart
