@@ -1,0 +1,56 @@
+//~ Single Inheritence
+
+class Electronics {
+  double height = 50, width = 100, thickness = 10;
+  void watch() {
+    print("Electronics Item is being watched");
+  }
+
+  void printHeight() {
+    print("Height of Item = $height");
+  }
+
+  void printWidth() {
+    print("Width of Item = $width");
+  }
+
+  void printThickness() {
+    print("Thickness of Item = $thickness");
+  }
+}
+
+class MobilePhone extends Electronics {
+  void playGames() {
+    print("Play Games on Mobile Phone");
+  }
+
+  void callContact() {
+    print("Calling through Mobile phone");
+  }
+}
+
+class Television extends MobilePhone{
+  
+}
+
+void main() {
+  MobilePhone mobilePhone = MobilePhone();
+  mobilePhone.height = 45;
+  mobilePhone.width = 25;
+  mobilePhone.thickness = 4;
+  mobilePhone.printHeight();
+  mobilePhone.printWidth();
+  mobilePhone.printThickness();
+  mobilePhone.playGames();
+  mobilePhone.callContact();
+
+  Television television = Television();
+  television.height = 500;
+  television.width = 250;
+  television.thickness = 100;
+  television.printHeight();
+  television.printWidth();
+  television.printThickness();
+  television.playGames();
+  television.callContact();
+}
