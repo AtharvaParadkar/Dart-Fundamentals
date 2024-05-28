@@ -1,5 +1,10 @@
+// ignore_for_file: file_names
+
+import 'dart:io';
+
 void main() {
-  int n=7;
+  stdout.write("Enter a no.:");
+  int n= int.parse(stdin.readLineSync()!);
   print(printDay(n));
 }
 
