@@ -4,6 +4,12 @@ void main() {
     print("Hello World!");
   }
 
+  int i=1;
+  do{
+    print(i);
+    i++;
+  }while(i<=5);
+
   int n = 5;
   print(factorial(n));
 }
