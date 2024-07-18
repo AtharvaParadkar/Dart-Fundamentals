@@ -1,5 +1,15 @@
 // ignore_for_file: file_names
 
+
+//^  Types of Variables
+//~ Int
+//~ Double
+//~ String
+//~ Boolean
+//~ List
+//~ Map
+//~ Dynamic 
+
 void main() {
   String name = "Atharva";
   bool male = true;
