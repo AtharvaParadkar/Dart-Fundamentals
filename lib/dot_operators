@@ -1,0 +1,16 @@
+// '.' Member access operator used to access a property, method, or getter/setter of an object.
+// '..' Cascade operator used to call methods or set properties on the same object, and still return the object
+// '...' Sperade operator used inside a collection (like a list, map, or set) to insert all elements of another collection.
+
+void main() {
+  String name = "Atharva";
+  print(name.length);
+  print(name.toUpperCase());
+
+  List a = [4, 2, 3];
+  List b = [5, ...a, 1];
+  print(a);
+  print(b);
+  b = [5, ...a, 1]..sort();
+  print(b);
+}
